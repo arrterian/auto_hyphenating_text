@@ -14,7 +14,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  hyphenator_impure: ^0.1.1
+  hyphenator_impure:
+    git:
+      url: https://github.com/arrterian/hyphenator.git
+      ref: 204750d946f28882d21bfc26db7573dc6f5c2526
 
 dev_dependencies:
   flutter_test:
